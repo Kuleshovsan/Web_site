@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     #Мои приложения
+    'telebot.apps.TelebotConfig',
     'price.apps.PriceConfig',
     'cms.apps.CmsConfig',
     'crm.apps.CrmConfig',
